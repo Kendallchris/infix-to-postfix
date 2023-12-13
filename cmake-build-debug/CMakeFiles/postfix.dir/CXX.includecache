@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/infix-to-postfix-Kendallchris/expression.cpp
+expression.h
+/tmp/infix-to-postfix-Kendallchris/expression.h
+stack
+-
+sstream
+-
+
+/tmp/infix-to-postfix-Kendallchris/expression.h
+string
+-
+
+/tmp/infix-to-postfix-Kendallchris/main.cpp
+expression.h
+/tmp/infix-to-postfix-Kendallchris/expression.h
+iostream
+-
+set
+-
+fstream
+-
+iomanip
+-
+

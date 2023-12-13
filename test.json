@@ -1,0 +1,20 @@
+{"infix":"a+b+c", "postfix":"a b + c +"}
+{"infix":"a+b-c", "postfix":"a b + c -"}
+{"infix":"a+b*c", "postfix":"a b c * +"}
+{"infix":"(a+b)/c", "postfix":"a b + c /"}
+{"infix":"( a + b ) * c", "postfix":"a b + c *"}
+{"infix":"(A+B)*(C-D)", "postfix":"A B + C D - *"}
+{"infix":"A + ( ( B + C ) * ( E - F ) - G ) / ( H - I)", "postfix":"A B C + E F - * G - H I - / +"}
+{"infix":"A + B * ( C + D ) - E / F * G + H", "postfix":"A B C D + * + E F / G * - H +"}
+{"infix":"A+((B+C)*(E-F)-G)/(H-I)", "postfix":"A B C + E F - * G - H I - / +"}
+{"infix":"A+B*(C+D)-E/F*G+H", "postfix":"A B C D + * + E F / G * - H +"}
+{"infix":"1+2+3", "postfix":"1 2 + 3 +"}
+{"infix":"(1+2)*3", "postfix":"1 2 + 3 *"}
+{"infix":"(7+5)/( 5 - 2 )", "postfix":"7 5 + 5 2 - /"}
+{"infix":"1 + (( 7 - 2) * ( 5 - 1) + 5) / 2", "postfix":"1 7 2 - 5 1 - * 5 + 2 / +"}
+{"infix":"4 + 3 - 2 * 5 / 1", "postfix":"4 3 + 2 5 * 1 / -"}
+{"infix":"alpha * beta + gamma", "postfix":"alpha beta * gamma +"}
+{"infix":"(delta - alpha) / (delta - beta)", "postfix":"delta alpha - delta beta - /"}
+{"infix":"25+10/2", "postfix":"25 10 2 / +"}
+{"infix":"(25+10)/7", "postfix":"25 10 + 7 /"}
+{"infix":"125/5*3", "postfix":"125 5 / 3 *"}

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/postfix.dir/main.cpp.o CMakeFiles/postfix.dir/expression.cpp.o  -o postfix 
